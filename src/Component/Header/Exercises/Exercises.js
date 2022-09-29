@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../../Cart/Cart';
 import Service from '../../Service/Service';
 import './Exercises.css';
 const Exercise = () => {
@@ -39,8 +40,7 @@ const Exercise = () => {
                     <h3>Add A Break</h3>
                 </div>
                 <div>
-                    <h3>Exercise Details</h3>
-                     <p><small>Exercise time {cart.length}seconds</small></p>
+                    <Cart cart={cart}></Cart>
                 </div>
 
                 <button>Activity Complete</button>
