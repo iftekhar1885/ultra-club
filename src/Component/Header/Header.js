@@ -3,10 +3,10 @@ import './Header.css'
 const Header = () => {
     return (
         <nav className='header'>
-            <h2>Ultra-Active-Club</h2>
+            <h2>Ultra-Study-Club</h2>
         <div>
             
-            <a href='/about'>Service</a>
+            <a href='/service'>Service</a>
             
         </div>
     </nav>
