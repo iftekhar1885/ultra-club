@@ -47,21 +47,28 @@
     padding-left: 2px;
     justify-content: end;
     background-color: aliceblue;
+    margin: 2px;
 };
 
-/* .identity{
-    text-align: center; */
-
-/* } */
-.break{
+.total-time{
     border: 1px solid gray;
-    padding: 2px;
-    margin: 4px;
+    /* padding: 2px; */
+    margin: 5px;
     box-shadow: 5px;
     background-color: aliceblue;
     margin-right: 5px;
-    justify-content: space-evenly;
+}
+.break{
+    border: 1px solid gray;
+    /* padding: 2px; */
+    margin: 5px;
+    box-shadow: 5px;
+    background-color: aliceblue;
+    margin-right: 5px;
+    
+
 };
+
 .btn{
     margin-top: 5px;
     background-color: aqua;
