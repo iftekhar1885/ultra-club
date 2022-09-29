@@ -13,8 +13,21 @@
     display: inline;
     border: 1px whitesmoke;
 }
-@media screen and (max-width:1100) {
+@media screen and (max-width: 1100) {
     .exercise-Container{
     grid-template-columns: 1fr;
     }
+    .cart-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+@media screen and (max-width: 700) {
+    .exercise-Container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    }
+    .cart-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    }
+
