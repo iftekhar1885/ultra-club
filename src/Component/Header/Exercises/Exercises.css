@@ -18,22 +18,3 @@
     grid-template-columns: 1fr;
     }
 }
-/* @media screen and (max-width:700) {
-    .products-container{
-        width: 100%;
-    }
-} */
-
-/* @media only screen and (min-width: 700px) {
-
-    .exercise-Container {
-      flex-direction: row;
-    }
-  
-    .products-container{
-      width: 30%;
-      flex-direction: column;
-    }
-  
-  }
-   */

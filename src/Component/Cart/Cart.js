@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css';
-import Swal from 'sweetalert2';
 const Cart = ({cart}) => {
     let total = 0;
     for(const service of cart){
