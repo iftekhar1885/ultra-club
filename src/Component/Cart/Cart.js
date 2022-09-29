@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './Cart.css'
+import './Cart.css';
+import Swal from 'sweetalert2';
 const Cart = ({cart}) => {
     let total = 0;
     for(const service of cart){
@@ -15,11 +16,11 @@ const Cart = ({cart}) => {
         if(prevTime){
             setTime(prevTime);
         }
-    }, []);
+    }, []); 
     return (
         <div className='cart'>
             <div className='identity'>
-                <h2>Iftekhar</h2>
+                <h2>IFTEKHAR</h2>
                 <p><small>Chittagong,bangladesh</small></p>
                 </div>
                 <div className='study'> 
@@ -28,9 +29,7 @@ const Cart = ({cart}) => {
                         <p className='class'>HSC</p>
                 </div>
                 <div>
-                    <h1>
-                        Add A Break
-                    </h1>
+                    <h3>Add A Break</h3>
                     <div>
                         <div className='Break-button'>
                             <div className='time'>
@@ -53,8 +52,8 @@ const Cart = ({cart}) => {
                 </div>
                 <div>
               <h3>Exercise Details</h3>
-              <div className='time'>
-              <h4>Exercise time: {total}s</h4>
+              <div className='total-time'>
+              <p>Exercise time: {total}s</p>
               
               </div>
               <div className='break'>

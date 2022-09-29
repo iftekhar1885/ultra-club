@@ -31,6 +31,9 @@
 .Break-button{
     display: flex;
     background-color: azure;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 2px;
 }
 .time{
     border: 1px solid gray;
@@ -46,10 +49,10 @@
     background-color: aliceblue;
 };
 
-.identity{
-    text-align: center;
+/* .identity{
+    text-align: center; */
 
-}
+/* } */
 .break{
     border: 1px solid gray;
     padding: 2px;
@@ -57,7 +60,13 @@
     box-shadow: 5px;
     background-color: aliceblue;
     margin-right: 5px;
+    justify-content: space-evenly;
 };
 .btn{
+    margin-top: 5px;
     background-color: aqua;
+    width: 100%;
+    background: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
 }

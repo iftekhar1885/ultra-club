@@ -20,7 +20,6 @@ const Exercise = () => {
         <div className='exercise-Container'>
             
             <div className='products-container'>
-                {/* <h2>Select today’s exercise:{services.length} </h2> */}
                 
              {
                  services.map(service=><Service
