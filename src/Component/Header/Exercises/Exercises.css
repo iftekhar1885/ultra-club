@@ -1,6 +1,6 @@
 .exercise-Container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 .products-container{
     display: grid;
@@ -9,7 +9,9 @@
     margin: 100px 50px;
 }
 .cart-container{
-    background-color: rosybrown;
+    background-color: gold;
+    display: inline;
+    border: 1px whitesmoke;
 }
 @media screen and (max-width:1100) {
     .products-container{

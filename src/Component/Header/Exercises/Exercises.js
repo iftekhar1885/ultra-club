@@ -33,17 +33,9 @@ const Exercise = () => {
             </div>
             <div className='cart-container'>
                 <div>
-                <h2>Iftekhar</h2>
-                <p><small>Chittagong,bangladesh</small></p>
-                </div>
-                <div>
-                    <h3>Add A Break</h3>
-                </div>
-                <div>
                     <Cart cart={cart}></Cart>
                 </div>
 
-                <button>Activity Complete</button>
             </div> 
         </div>
     );

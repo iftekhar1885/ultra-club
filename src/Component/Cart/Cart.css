@@ -1,0 +1,63 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+
+}
+.box{
+    border: 2px solid wheat;
+    padding: 3px;
+    margin: 3px;
+}
+.break{
+    display: flex;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: aliceblue;
+}
+.class{
+    border: 1px solid wheat;
+    padding: 3px;
+    margin: 3px;
+    box-shadow: 2px; 
+}
+.study{
+    display: flex;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 2px;
+    background-color: aliceblue
+}
+.Break-button{
+    display: flex;
+    background-color: azure;
+}
+.time{
+    border: 1px solid gray;
+    padding: 2px;
+    margin: 4px;
+    box-shadow: 5px;
+    background-color: aliceblue;
+};
+.total-break{
+    border: 1px solid gray;
+    padding-left: 2px;
+    justify-content: end;
+    background-color: aliceblue;
+};
+
+.identity{
+    text-align: center;
+
+}
+.break{
+    border: 1px solid gray;
+    padding: 2px;
+    margin: 4px;
+    box-shadow: 5px;
+    background-color: aliceblue;
+    margin-right: 5px;
+};
+.btn{
+    background-color: aqua;
+}
